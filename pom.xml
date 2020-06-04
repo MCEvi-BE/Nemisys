@@ -13,29 +13,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <distributionManagement>
+    <repositories>
         <repository>
-            <id>myMavenRepo.write</id>
-            <url>${myMavenRepo.write.url}</url>
+            <id>nukkitx-repo</id>
+            <url>https://repo.nukkitx.com/main/</url>
         </repository>
-        <snapshotRepository>
-            <id>myMavenRepo.write</id>
-            <url>${myMavenRepo.write.url}</url>
-        </snapshotRepository>
-    </distributionManagement>
+        <repository>
+            <id>aikar</id>
+            <url>https://repo.aikar.co/content/groups/aikar/</url>
+        </repository>
+    </repositories>
 
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>nukkitx-releases</name>
-            <url>https://repo.nukkitx.com/main</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>nukkitx-snapshots</name>
-            <url>https://repo.nukkitx.com/main</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <dependencies>
         <dependency>
