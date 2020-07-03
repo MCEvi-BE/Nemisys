@@ -3,9 +3,7 @@ package org.itxtech.nemisys.utils;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Created by boybook on 16/6/25.
- */
+
 public class ClientData {
 
     public Map<String, Entry> clientList = new ConcurrentHashMap<>();

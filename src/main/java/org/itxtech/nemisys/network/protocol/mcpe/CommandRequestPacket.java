@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import org.itxtech.nemisys.network.protocol.mcpe.types.CommandOriginData;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class CommandRequestPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.COMMAND_REQUEST_PACKET;
@@ -40,20 +37,7 @@ public class CommandRequestPacket extends DataPacket {
         this.command = this.getString();
         //this.get();
 
-        /*if(protocol >= 141) {
-            CommandOriginData.Origin type = CommandOriginData.Origin.values()[this.getVarInt()];
-            UUID uuid = this.getUUID();
-            String requestId = this.getString();
-            Long varLong = null;
-            if (type == CommandOriginData.Origin.DEV_CONSOLE || type == CommandOriginData.Origin.TEST) {
-                varLong = this.getVarLong();
-            }
-            this.data = new CommandOriginData(type, uuid, requestId, varLong);
-        } else {
-            this.type = this.getVarInt();
-            this.requestId = this.getString();
-            this.playerUniqueId = this.getVarLong();
-        }*/
+
     }
 
     @Override

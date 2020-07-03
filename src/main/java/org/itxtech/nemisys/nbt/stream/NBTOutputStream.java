@@ -9,10 +9,7 @@ import java.io.OutputStream;
 import java.nio.ByteOrder;
 import java.nio.charset.StandardCharsets;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class NBTOutputStream implements DataOutput, AutoCloseable {
     private final DataOutputStream stream;
     private final ByteOrder endianness;

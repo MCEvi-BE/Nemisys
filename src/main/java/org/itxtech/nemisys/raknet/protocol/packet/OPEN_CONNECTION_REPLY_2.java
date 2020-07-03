@@ -5,10 +5,7 @@ import org.itxtech.nemisys.raknet.protocol.Packet;
 
 import java.net.InetSocketAddress;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class OPEN_CONNECTION_REPLY_2 extends Packet {
     public static byte ID = (byte) 0x08;
 

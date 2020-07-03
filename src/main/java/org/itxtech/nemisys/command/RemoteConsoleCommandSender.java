@@ -2,11 +2,7 @@ package org.itxtech.nemisys.command;
 
 import org.itxtech.nemisys.event.TextContainer;
 
-/**
- * Represents an RCON command sender.
- *
- * @author Tee7even
- */
+
 public class RemoteConsoleCommandSender extends ConsoleCommandSender {
     private StringBuilder messages = new StringBuilder();
 

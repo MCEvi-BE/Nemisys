@@ -1,23 +1,12 @@
 package org.itxtech.nemisys.network.synlib;
 
-/**
- * SynapseProtocolHeader
- * ===============
- * author: boybook
- * Synapse Protocol Header
- * nemisys
- * ===============
- */
+
 public class SynapseProtocolHeader {
 
-    /**
-     * Head Length
-     */
+
     public static final int HEAD_LENGTH = 7;
 
-    /**
-     * Magic
-     */
+
     public static final short MAGIC = (short) 0xbabe;
 
     private int pid;

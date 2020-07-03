@@ -3,9 +3,7 @@ package org.itxtech.nemisys.command.data;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * @author CreeperFace
- */
+
 public class CommandParameter {
 
     public final static String ARG_TYPE_STRING = "string";

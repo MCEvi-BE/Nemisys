@@ -3,10 +3,7 @@ package org.itxtech.nemisys.scheduler;
 import org.itxtech.nemisys.Server;
 import org.itxtech.nemisys.plugin.Plugin;
 
-/**
- * author: MagicDroidX
- * Nukkit
- */
+
 public class TaskHandler {
 
     public final String timingName;

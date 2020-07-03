@@ -3,9 +3,7 @@ package org.itxtech.nemisys.network.protocol.mcpe.types;
 import lombok.RequiredArgsConstructor;
 import org.itxtech.nemisys.network.protocol.mcpe.SetScorePacket;
 
-/**
- * @author CreeperFace
- */
+
 @RequiredArgsConstructor
 public class ScoreInfo {
 

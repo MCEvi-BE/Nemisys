@@ -2,10 +2,7 @@ package org.itxtech.nemisys.command;
 
 import java.util.List;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public interface CommandMap {
 
     void registerAll(String fallbackPrefix, List<? extends Command> commands);

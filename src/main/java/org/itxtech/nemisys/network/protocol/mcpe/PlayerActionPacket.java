@@ -2,9 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import org.itxtech.nemisys.math.BlockVector3;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class PlayerActionPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.PLAYER_ACTION_PACKET;

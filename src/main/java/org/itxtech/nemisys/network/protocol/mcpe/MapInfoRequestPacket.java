@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * Created by CreeperFace on 5.3.2017.
- */
+
 public class MapInfoRequestPacket extends DataPacket {
     public long mapId;
 

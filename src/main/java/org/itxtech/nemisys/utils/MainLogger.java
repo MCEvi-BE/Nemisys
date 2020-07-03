@@ -13,10 +13,7 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * author: MagicDroidX
- * Nukkit
- */
+
 public class MainLogger extends ThreadedLogger {
 
     protected final String logPath;

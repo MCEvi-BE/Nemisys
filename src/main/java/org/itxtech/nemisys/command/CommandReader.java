@@ -8,10 +8,7 @@ import org.itxtech.nemisys.event.server.ServerCommandEvent;
 
 import java.io.IOException;
 
-/**
- * author: MagicDroidX
- * Nukkit
- */
+
 public class CommandReader extends Thread implements InterruptibleThread {
 
     public static CommandReader instance;

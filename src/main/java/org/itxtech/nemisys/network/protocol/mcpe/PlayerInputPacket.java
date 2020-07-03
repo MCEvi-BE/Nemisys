@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class PlayerInputPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.PLAYER_INPUT_PACKET;

@@ -6,10 +6,7 @@ import org.itxtech.nemisys.network.protocol.mcpe.types.entity.EntityLink;
 import org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata.EntityMetadata;
 import org.itxtech.nemisys.utils.Binary;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class AddEntityPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.ADD_ENTITY_PACKET;
 

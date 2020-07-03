@@ -4,10 +4,7 @@ import org.itxtech.nemisys.raknet.protocol.Packet;
 
 import java.net.InetSocketAddress;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class SERVER_HANDSHAKE_DataPacket extends Packet {
     public static byte ID = (byte) 0x10;
 

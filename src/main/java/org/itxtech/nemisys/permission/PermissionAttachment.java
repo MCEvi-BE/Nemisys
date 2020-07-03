@@ -7,9 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author CreeperFace
- */
+
 public class PermissionAttachment {
 
     private PermissionRemovedExecutor removed = null;

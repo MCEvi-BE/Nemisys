@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class RemoveEntityPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.REMOVE_ENTITY_PACKET;
 

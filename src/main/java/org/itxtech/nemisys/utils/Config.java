@@ -15,10 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.regex.Pattern;
 
-/**
- * author: MagicDroidX
- * Nukkit
- */
+
 public class Config {
 
     public static final int DETECT = -1; //Detect by file extension
@@ -55,20 +52,14 @@ public class Config {
     private boolean correct = false;
     private int type = Config.DETECT;
 
-    /**
-     * Constructor for Config instance with undefined file object
-     *
-     * @param type - Config type
-     */
+
     public Config(int type) {
         this.type = type;
         this.correct = true;
         this.config = new ConfigSection();
     }
 
-    /**
-     * Constructor for Config (YAML) instance with undefined file object
-     */
+
     public Config() {
         this(Config.YAML);
     }
@@ -188,13 +179,7 @@ public class Config {
         return correct;
     }
 
-    /**
-     * Save configuration into provided file. Internal file object will be set to new file.
-     *
-     * @param file
-     * @param async
-     * @return
-     */
+
     public boolean save(File file, boolean async) {
         this.file = file;
         return save(async);
@@ -414,11 +399,7 @@ public class Config {
         this.config = section;
     }
 
-    /**
-     * Get root (main) config section of the Config
-     *
-     * @return
-     */
+
     public ConfigSection getRootSection() {
         return config;
     }
@@ -496,34 +477,26 @@ public class Config {
         }
     }
 
-    /**
-     * @deprecated use {@link #get(String)} instead
-     */
+
     @Deprecated
     public Object getNested(String key) {
         return get(key);
     }
 
-    /**
-     * @deprecated use {@link #get(String, T)} instead
-     */
+
     @Deprecated
     public <T> T getNested(String key, T defaultValue) {
         return get(key, defaultValue);
     }
 
-    /**
-     * @deprecated use {@link #get(String)} instead
-     */
+
     @Deprecated
     @SuppressWarnings("unchecked")
     public <T> T getNestedAs(String key, Class<T> type) {
         return (T) get(key);
     }
 
-    /**
-     * @deprecated use {@link #remove(String)} instead
-     */
+
     @Deprecated
     public void removeNested(String key) {
         remove(key);

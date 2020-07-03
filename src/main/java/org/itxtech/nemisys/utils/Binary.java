@@ -11,10 +11,7 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.UUID;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class Binary {
 
     public static int signByte(int value) {

@@ -7,9 +7,7 @@ import org.itxtech.nemisys.network.protocol.spp.SynapseDataPacket;
 
 import java.net.InetSocketAddress;
 
-/**
- * Handles a server-side channel.
- */
+
 public class SynapseClientHandler extends ChannelInboundHandlerAdapter {
 
     //static final ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);

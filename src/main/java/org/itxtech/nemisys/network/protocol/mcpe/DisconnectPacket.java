@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * Created by on 15-10-12.
- */
+
 public class DisconnectPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.DISCONNECT_PACKET;
 

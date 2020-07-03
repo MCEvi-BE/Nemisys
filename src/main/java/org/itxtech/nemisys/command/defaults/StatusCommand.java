@@ -6,10 +6,7 @@ import org.itxtech.nemisys.command.CommandSender;
 import org.itxtech.nemisys.math.NemisysMath;
 import org.itxtech.nemisys.utils.TextFormat;
 
-/**
- * Created on 2015/11/11 by xtypr.
- * Package org.itxtech.nemisys.command.defaults in project Nukkit .
- */
+
 public class StatusCommand extends VanillaCommand {
 
     public StatusCommand(String name) {

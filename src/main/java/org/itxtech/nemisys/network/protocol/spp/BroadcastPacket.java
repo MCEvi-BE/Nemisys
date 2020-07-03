@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * Author: PeratX
- * Nemisys Project
- */
+
 public class BroadcastPacket extends SynapseDataPacket {
     public static final byte NETWORK_ID = SynapseInfo.BROADCAST_PACKET;
 

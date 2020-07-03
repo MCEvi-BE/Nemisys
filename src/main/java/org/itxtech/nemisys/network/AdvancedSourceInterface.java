@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public interface AdvancedSourceInterface extends SourceInterface {
 
     void blockAddress(String address);

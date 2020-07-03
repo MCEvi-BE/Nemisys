@@ -10,9 +10,7 @@ import java.net.URLClassLoader;
 import java.nio.file.Files;
 import java.util.logging.Logger;
 
-/**
- * Created on 15-12-13.
- */
+
 public class LibraryLoader {
 
     private static final File BASE_FOLDER = new File("./libraries");

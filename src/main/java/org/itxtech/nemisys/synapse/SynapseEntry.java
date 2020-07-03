@@ -16,9 +16,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.*;
 
-/**
- * Created by boybook on 16/8/21.
- */
+
 public class SynapseEntry {
 
     private Synapse synapse;
@@ -171,11 +169,7 @@ public class SynapseEntry {
         pk.maxPlayers = this.getSynapse().getServer().getMaxPlayers();
         pk.protocol = SynapseInfo.CURRENT_PROTOCOL;
         this.sendDataPacket(pk);
-        /*
-        Thread ticker = new Thread(new Ticker());
-        ticker.setName("SynapseAPI Ticker");
-        ticker.start();
-        */
+
     }
 
     public void tick() {
@@ -192,13 +186,7 @@ public class SynapseEntry {
             this.getSynapse().getServer().getLogger().debug(time + " -> Sending Heartbeat Packet to " + this.getHash());
         }
 
-        /*
-        for (int i = 0; i < new Random().nextInt(10) + 1; i++) {
-            InformationPacket test = new InformationPacket();
-            test.type = InformationPacket.TYPE_PLUGIN_MESSAGE;
-            test.message = getRandomString(1024 * (new Random().nextInt(20) + 110));
-            this.sendDataPacket(test);
-        }*/
+
 
         long finalTime = System.currentTimeMillis();
         long usedTime = finalTime - time;

@@ -4,9 +4,7 @@ import org.itxtech.nemisys.Client;
 import org.itxtech.nemisys.event.Cancellable;
 import org.itxtech.nemisys.event.HandlerList;
 
-/**
- * @author PeratX
- */
+
 public class PluginMsgRecvEvent extends ClientEvent implements Cancellable {
     private static final HandlerList handlers = new HandlerList();
     private String channel;

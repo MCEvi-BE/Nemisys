@@ -8,9 +8,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-/**
- * @author CreeperFace
- */
+
 public class SetScorePacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.SET_SCORE_PACKET;

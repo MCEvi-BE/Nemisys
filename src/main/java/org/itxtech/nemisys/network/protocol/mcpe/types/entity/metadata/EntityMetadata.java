@@ -7,10 +7,7 @@ import org.itxtech.nemisys.network.protocol.mcpe.types.item.Item;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class EntityMetadata {
 
     public static final int DATA_TYPE_BYTE = 0;

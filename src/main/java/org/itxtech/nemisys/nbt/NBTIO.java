@@ -17,9 +17,7 @@ import java.util.zip.Deflater;
 import java.util.zip.DeflaterOutputStream;
 import java.util.zip.GZIPInputStream;
 
-/**
- * A Named Binary Tag library for Nukkit Project
- */
+
 public class NBTIO {
 
     public static CompoundTag putItemHelper(Item item) {

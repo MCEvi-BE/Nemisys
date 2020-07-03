@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.spp;
 
-/**
- * @author CreeperFace
- */
+
 public class PluginMessagePacket extends SynapseDataPacket {
 
     public static final int NETWORK_ID = SynapseInfo.PLUGIN_MESSAGE_PACKET;

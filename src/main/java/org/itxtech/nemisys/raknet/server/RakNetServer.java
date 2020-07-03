@@ -5,10 +5,7 @@ import org.itxtech.nemisys.utils.ThreadedLogger;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class RakNetServer extends Thread {
     protected int port;
     protected String interfaz;

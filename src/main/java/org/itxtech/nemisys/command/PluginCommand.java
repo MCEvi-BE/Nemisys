@@ -3,10 +3,7 @@ package org.itxtech.nemisys.command;
 import org.itxtech.nemisys.event.TranslationContainer;
 import org.itxtech.nemisys.plugin.Plugin;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class PluginCommand<T extends Plugin> extends Command implements PluginIdentifiableCommand {
 
     private T owningPlugin;

@@ -5,10 +5,7 @@ import org.itxtech.nemisys.event.Event;
 import org.itxtech.nemisys.event.EventPriority;
 import org.itxtech.nemisys.event.Listener;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class RegisteredListener {
 
     private Listener listener;

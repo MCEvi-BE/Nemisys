@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.utils;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class ServerKiller extends Thread {
 
     public int time;

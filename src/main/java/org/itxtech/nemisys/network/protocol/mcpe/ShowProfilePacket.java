@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class ShowProfilePacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.SHOW_PROFILE_PACKET;
 

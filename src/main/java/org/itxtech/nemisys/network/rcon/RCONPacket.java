@@ -4,11 +4,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-/**
- * A data structure representing an RCON packet.
- *
- * @author Tee7even
- */
+
 public class RCONPacket {
     private int id;
     private int type;

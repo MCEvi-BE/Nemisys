@@ -2,9 +2,7 @@ package org.itxtech.nemisys.plugin.certification;
 
 import java.io.Serializable;
 
-/**
- * Created by iNevet.
- */
+
 public abstract class PluginCertificate extends Thread implements Serializable {
 
     protected transient boolean localCertificated = false;

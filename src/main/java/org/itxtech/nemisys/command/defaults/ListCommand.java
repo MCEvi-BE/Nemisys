@@ -4,10 +4,7 @@ import org.itxtech.nemisys.Player;
 import org.itxtech.nemisys.command.CommandSender;
 import org.itxtech.nemisys.event.TranslationContainer;
 
-/**
- * Created on 2015/11/11 by xtypr.
- * Package org.itxtech.nemisys.command.defaults in project Nukkit .
- */
+
 public class ListCommand extends VanillaCommand {
 
     public ListCommand(String name) {

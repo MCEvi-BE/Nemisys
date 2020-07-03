@@ -5,9 +5,7 @@ import org.itxtech.nemisys.plugin.RegisteredListener;
 
 import java.util.*;
 
-/**
- * Created by Nukkit Team.
- */
+
 public class HandlerList {
 
     private static final ArrayList<HandlerList> allLists = new ArrayList<>();

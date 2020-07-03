@@ -1,12 +1,6 @@
 package org.itxtech.nemisys.network.synlib;
 
-/**
- * SynapseContextException
- * ===============
- * author: boybook
- * Nemisys Project
- * ===============
- */
+
 public class SynapseContextException extends Exception {
 
     public SynapseContextException() {

@@ -6,9 +6,7 @@ import org.itxtech.nemisys.utils.ThreadStore;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * @author Nukkit Project Team
- */
+
 public abstract class AsyncTask implements Runnable {
 
     public static final Queue<AsyncTask> FINISHED_LIST = new ConcurrentLinkedQueue<>();

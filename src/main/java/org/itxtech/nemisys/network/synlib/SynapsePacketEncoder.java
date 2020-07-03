@@ -5,13 +5,7 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 import org.itxtech.nemisys.network.protocol.spp.SynapseDataPacket;
 
-/**
- * SynapsePacketEncoder
- * ===============
- * author: boybook
- * Nemisys Project
- * ===============
- */
+
 public class SynapsePacketEncoder extends MessageToByteEncoder<SynapseDataPacket> {
 
     @Override

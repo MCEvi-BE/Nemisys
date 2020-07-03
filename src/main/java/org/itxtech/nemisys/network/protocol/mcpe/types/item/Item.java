@@ -17,10 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class Item implements Cloneable, ItemID, BlockID {
 
     protected static String UNKNOWN_STR = "Unknown";
@@ -496,12 +493,7 @@ public class Item implements Cloneable, ItemID, BlockID {
         return false;
     }
 
-    /**
-     * Returns whether the specified item stack has the same ID, damage, NBT and count as this item stack.
-     *
-     * @param other item
-     * @return equal
-     */
+
     public final boolean equalsExact(Item other) {
         return this.equals(other, true, true) && this.count == other.count;
     }

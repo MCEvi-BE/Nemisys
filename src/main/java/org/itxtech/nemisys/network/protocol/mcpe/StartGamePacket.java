@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * Created on 15-10-13.
- */
+
 public class StartGamePacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.START_GAME_PACKET;
@@ -81,10 +79,7 @@ public class StartGamePacket extends DataPacket {
         this.putBoolean(this.broadcastToXboxLive);
         this.putBoolean(this.commandsEnabled);
         this.putBoolean(this.isTexturePacksRequired);
-        this.putUnsignedVarInt(0/*this.ruleDatas.length*/);
-        /*for (RuleData rule : this.ruleDatas) {
-            this.putRuleData(rule);
-        }*/
+        this.putUnsignedVarInt(0);
         this.putBoolean(this.bonusChest);
         this.putBoolean(this.trustPlayers);
         this.putVarInt(this.permissionLevel);

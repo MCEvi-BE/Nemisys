@@ -2,9 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import org.itxtech.nemisys.math.Vector3f;
 
-/**
- * Created on 15-10-14.
- */
+
 public class MovePlayerPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.MOVE_PLAYER_PACKET;

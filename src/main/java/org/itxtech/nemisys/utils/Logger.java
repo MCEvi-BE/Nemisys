@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.utils;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public interface Logger {
 
     void emergency(String message);

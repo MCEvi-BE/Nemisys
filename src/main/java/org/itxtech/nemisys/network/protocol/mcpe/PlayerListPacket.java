@@ -4,9 +4,7 @@ import org.itxtech.nemisys.utils.Skin;
 
 import java.util.UUID;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class PlayerListPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.PLAYER_LIST_PACKET;

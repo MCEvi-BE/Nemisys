@@ -4,10 +4,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.UUID;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class Utils {
     public static byte[] writeClientHash(String hash) {
         return Binary.appendBytes(

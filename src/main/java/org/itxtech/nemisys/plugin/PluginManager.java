@@ -17,10 +17,7 @@ import java.lang.reflect.Method;
 import java.util.*;
 import java.util.regex.Pattern;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class PluginManager {
 
     public static boolean useTimings = false;

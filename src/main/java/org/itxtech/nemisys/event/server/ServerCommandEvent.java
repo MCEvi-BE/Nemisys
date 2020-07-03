@@ -4,10 +4,7 @@ import org.itxtech.nemisys.command.CommandSender;
 import org.itxtech.nemisys.event.Cancellable;
 import org.itxtech.nemisys.event.HandlerList;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class ServerCommandEvent extends ServerEvent implements Cancellable {
 
     private static final HandlerList handlers = new HandlerList();

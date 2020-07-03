@@ -8,10 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class PluginClassLoader extends URLClassLoader {
 
     private JavaPluginLoader loader;

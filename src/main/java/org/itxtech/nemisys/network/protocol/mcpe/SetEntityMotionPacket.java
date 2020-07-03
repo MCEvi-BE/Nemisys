@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class SetEntityMotionPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.SET_ENTITY_MOTION_PACKET;
 

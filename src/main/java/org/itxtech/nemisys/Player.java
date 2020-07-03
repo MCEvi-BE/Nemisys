@@ -28,10 +28,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
 
-/**
- * Author: PeratX
- * Nemisys Project
- */
+
 public class Player implements CommandSender {
     public boolean closed;
     @Getter
@@ -149,11 +146,7 @@ public class Player implements CommandSender {
                 case ProtocolInfo.COMMAND_REQUEST_PACKET:
                     CommandRequestPacket commandRequestPacket = (CommandRequestPacket) packet;
 
-                        /*PlayerCommandPreprocessEvent playerCommandPreprocessEvent = new PlayerCommandPreprocessEvent(this, commandRequestPacket.command);
-                        this.server.getPluginManager().callEvent(playerCommandPreprocessEvent);
-                        if (playerCommandPreprocessEvent.isCancelled()) {
-                            break;
-                        }*/
+
 
                     if (this.server.dispatchCommand(this, commandRequestPacket.command.substring(1), false))
                         return;
@@ -562,17 +555,7 @@ public class Player implements CommandSender {
 
     @Override
     public void setOp(boolean value) {
-        /*if (value == this.isOp()) {
-            return;
-        }
 
-        if (value) {
-            this.server.addOp(this.getName());
-        } else {
-            this.server.removeOp(this.getName());
-        }
-
-        this.recalculatePermissions();*/
         //this.sendCommandData();
     }
 

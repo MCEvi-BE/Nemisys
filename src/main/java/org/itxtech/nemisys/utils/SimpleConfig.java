@@ -14,10 +14,7 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
 
-/**
- * SimpleConfig for Nukkit
- * added 11/02/2016 by fromgate
- */
+
 public abstract class SimpleConfig {
 
     private File configFile;

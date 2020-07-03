@@ -5,9 +5,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 import org.itxtech.nemisys.Server;
 import org.itxtech.nemisys.network.protocol.spp.SynapseDataPacket;
 
-/**
- * Handles a server-side channel.
- */
+
 public class SynapseServerHandler extends ChannelInboundHandlerAdapter {
 
     //static final ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);

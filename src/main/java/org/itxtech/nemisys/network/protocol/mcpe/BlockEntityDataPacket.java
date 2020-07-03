@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import org.itxtech.nemisys.math.BlockVector3;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class BlockEntityDataPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.BLOCK_ENTITY_DATA_PACKET;
 

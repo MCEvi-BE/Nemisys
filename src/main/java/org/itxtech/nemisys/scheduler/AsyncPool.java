@@ -7,9 +7,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class AsyncPool {
 
     private final ThreadPoolExecutor pool;

@@ -3,10 +3,7 @@ package org.itxtech.nemisys.raknet.protocol.packet;
 import org.itxtech.nemisys.raknet.protocol.DataPacket;
 import org.itxtech.nemisys.raknet.protocol.Packet;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class DATA_PACKET_6 extends DataPacket {
     public static byte ID = (byte) 0x86;
 

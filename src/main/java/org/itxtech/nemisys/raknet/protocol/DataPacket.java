@@ -4,10 +4,7 @@ import org.itxtech.nemisys.utils.Binary;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public abstract class DataPacket extends Packet {
 
     public ConcurrentLinkedQueue<Object> packets = new ConcurrentLinkedQueue<>();

@@ -6,10 +6,7 @@ import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public abstract class Packet implements Cloneable {
 
     protected int offset = 0;
@@ -174,13 +171,9 @@ public abstract class Packet implements Cloneable {
         return packet;
     }
 
-    /**
-     * A factory to create new packet instances
-     */
+
     public interface PacketFactory {
-        /**
-         * Creates the packet
-         */
+
         Packet create();
     }
 }

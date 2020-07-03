@@ -2,10 +2,7 @@ package org.itxtech.nemisys.event;
 
 import org.itxtech.nemisys.Server;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class TextContainer implements Cloneable {
     protected String text;
 

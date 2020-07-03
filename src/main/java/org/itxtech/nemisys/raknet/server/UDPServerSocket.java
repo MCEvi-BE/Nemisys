@@ -14,10 +14,7 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class UDPServerSocket extends ChannelInboundHandlerAdapter {
 
     protected final ThreadedLogger logger;

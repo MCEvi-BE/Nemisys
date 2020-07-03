@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class StringEntityData extends EntityData<String> {
     public String data;
 

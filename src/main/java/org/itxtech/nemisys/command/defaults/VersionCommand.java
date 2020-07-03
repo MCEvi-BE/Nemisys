@@ -9,10 +9,7 @@ import org.itxtech.nemisys.utils.TextFormat;
 
 import java.util.List;
 
-/**
- * Created on 2015/11/12 by xtypr.
- * Package org.itxtech.nemisys.command.defaults in project Nukkit .
- */
+
 public class VersionCommand extends VanillaCommand {
 
     public VersionCommand(String name) {

@@ -5,10 +5,7 @@ import org.itxtech.nemisys.utils.BinaryStream;
 
 import java.util.TreeMap;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public abstract class AcknowledgePacket extends Packet {
 
     public TreeMap<Integer, Integer> packets;

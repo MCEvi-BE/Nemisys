@@ -2,13 +2,7 @@ package org.itxtech.nemisys.network.synlib;
 
 import org.itxtech.nemisys.network.protocol.spp.SynapseDataPacket;
 
-/**
- * SynapseClientPacket
- * ===============
- * author: boybook
- * Nukkit Project
- * ===============
- */
+
 public class SynapseClientPacket {
 
     private String hash;

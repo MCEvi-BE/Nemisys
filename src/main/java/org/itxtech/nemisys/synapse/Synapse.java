@@ -11,14 +11,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Synapse
- * ===============
- * author: boybook
- * EaseCation Network Project
- * nemisys
- * ===============
- */
+
 public class Synapse {
 
     private Server server;

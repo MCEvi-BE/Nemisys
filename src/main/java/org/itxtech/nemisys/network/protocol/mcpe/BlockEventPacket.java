@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class BlockEventPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.BLOCK_EVENT_PACKET;
 

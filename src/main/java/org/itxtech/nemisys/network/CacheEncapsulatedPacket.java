@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network;
 
 import org.itxtech.nemisys.raknet.protocol.EncapsulatedPacket;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class CacheEncapsulatedPacket extends EncapsulatedPacket {
 
     private byte[] internalData = null;

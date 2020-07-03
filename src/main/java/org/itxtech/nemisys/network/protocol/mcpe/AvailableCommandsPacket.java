@@ -8,10 +8,7 @@ import java.util.function.ObjIntConsumer;
 import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class AvailableCommandsPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.AVAILABLE_COMMANDS_PACKET;

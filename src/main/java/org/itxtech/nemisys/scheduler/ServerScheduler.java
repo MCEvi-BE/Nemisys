@@ -11,9 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class ServerScheduler {
 
     public static int WORKERS = 4;
@@ -130,7 +128,7 @@ public class ServerScheduler {
             TaskHandler taskHandler = entry.getValue();
             if (plugin.equals(taskHandler.getPlugin())) {
                 try {
-                    taskHandler.cancel(); /* It will remove from task map automatic in next main heartbeat. */
+                    taskHandler.cancel(); 
                 } catch (RuntimeException ex) {
                     Server.getInstance().getLogger().critical("Exception while invoking onCancel", ex);
                 }

@@ -24,10 +24,7 @@ import java.io.DataInputStream;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Author: PeratX
- * Nemisys Project
- */
+
 public class Client {
 
     @Getter
@@ -90,10 +87,7 @@ public class Client {
     }
 
     public void handleDataPacket(SynapseDataPacket packet) {
-        /*this.server.getPluginManager().callEvent(ev = new ClientRecvPacketEvent(this, packet));
-        if(ev.isCancelled()){
-			return;
-		}*/
+
 
         switch (packet.pid()) {
             case SynapseInfo.BROADCAST_PACKET:
@@ -320,10 +314,7 @@ public class Client {
 
     public void sendDataPacket(SynapseDataPacket pk) {
         this.interfaz.putPacket(this, pk);
-		/*this.server.getPluginManager().callEvent(ev = new ClientSendPacketEvent(this, pk));
-		if(!ev.isCancelled()){
-			this.interfaz.putPacket(this, pk);
-		}*/
+
     }
 
     public void setVerified() {

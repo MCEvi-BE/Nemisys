@@ -76,10 +76,7 @@ public class Attribute implements Cloneable {
         throw new ServerException("Attribute id: " + id + " not found");
     }
 
-    /**
-     * @param name name
-     * @return null|Attribute
-     */
+
     public static Attribute getAttributeByName(String name) {
         for (Attribute a : attributes.values()) {
             if (Objects.equals(a.getName(), name)) {

@@ -2,9 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import org.itxtech.nemisys.math.Vector3f;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class RespawnPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.RESPAWN_PACKET;

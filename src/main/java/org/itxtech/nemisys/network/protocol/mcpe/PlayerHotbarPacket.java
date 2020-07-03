@@ -16,27 +16,12 @@ public class PlayerHotbarPacket extends DataPacket {
 
     @Override
     public void decode() {
-        /*this.selectedHotbarSlot = (int) this.getUnsignedVarInt();
-        this.windowId = this.getByte();
-        int count = (int) this.getUnsignedVarInt();
-        slots = new int[count];
 
-        for (int i = 0; i < count; ++i) {
-            this.slots[i] = Binary.signInt((int) this.getUnsignedVarInt());
-        }
-        this.selectHotbarSlot = this.getBoolean();*/
     }
 
     @Override
     public void encode() {
         this.reset();
-        /*this.putUnsignedVarInt(this.selectedHotbarSlot);
-        this.putByte((byte) this.windowId);
-        this.putUnsignedVarInt(this.slots.length);
-        for (int i : slots) {
-            this.putUnsignedVarInt(i);
-        }
 
-        this.putBoolean(this.selectHotbarSlot);*/
     }
 }

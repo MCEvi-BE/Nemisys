@@ -3,9 +3,7 @@ package org.itxtech.nemisys.command.data;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author CreeperFace
- */
+
 public class CommandData implements Cloneable {
 
     public CommandEnum aliases;

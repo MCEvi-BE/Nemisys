@@ -1,10 +1,7 @@
 package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class LongEntityData extends EntityData<Long> {
     public long data;
 

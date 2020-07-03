@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * Created on 15-10-13.
- */
+
 public class PlayStatusPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.PLAY_STATUS_PACKET;

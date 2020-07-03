@@ -11,9 +11,7 @@ import org.itxtech.nemisys.utils.ThreadedLogger;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * Created by boybook on 16/6/24.
- */
+
 public class SynapseClient extends Thread {
 
     public static final String VERSION = "0.3.0";

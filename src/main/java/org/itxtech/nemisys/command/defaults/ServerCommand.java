@@ -8,9 +8,7 @@ import org.itxtech.nemisys.command.data.CommandParameter;
 import org.itxtech.nemisys.event.TranslationContainer;
 import org.itxtech.nemisys.utils.TextFormat;
 
-/**
- * @author CreeperFace
- */
+
 public class ServerCommand extends VanillaCommand {
 
     public ServerCommand(String name) {

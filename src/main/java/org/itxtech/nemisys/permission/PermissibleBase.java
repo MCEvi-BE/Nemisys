@@ -10,9 +10,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentSkipListSet;
 
-/**
- * @author CreeperFace
- */
+
 public class PermissibleBase implements Permissible {
 
     ServerOperator opable = null;

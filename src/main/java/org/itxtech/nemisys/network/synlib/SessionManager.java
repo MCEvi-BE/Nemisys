@@ -9,10 +9,7 @@ import java.net.InetSocketAddress;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Author: PeratX
- * Nemisys Project
- */
+
 public class SessionManager {
     private SynapseServer server;
     private Map<String, Channel> sessions = new HashMap<>();

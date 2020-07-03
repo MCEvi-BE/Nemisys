@@ -5,9 +5,7 @@ import org.itxtech.nemisys.event.Event;
 import org.itxtech.nemisys.event.HandlerList;
 import org.itxtech.nemisys.network.SourceInterface;
 
-/**
- * @author CreeperFace
- */
+
 public class PlayerCreationEvent extends Event {
 
     private static final HandlerList handlers = new HandlerList();

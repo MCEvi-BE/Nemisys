@@ -9,10 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class FileWriteTask extends AsyncTask {
     private File file;
     private InputStream contents;

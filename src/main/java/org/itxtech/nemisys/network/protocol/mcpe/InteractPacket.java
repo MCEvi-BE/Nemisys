@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * Created on 15-10-15.
- */
+
 public class InteractPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.INTERACT_PACKET;

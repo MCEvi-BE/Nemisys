@@ -8,10 +8,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class QueryHandler {
 
     public static final byte HANDSHAKE = 0x09;

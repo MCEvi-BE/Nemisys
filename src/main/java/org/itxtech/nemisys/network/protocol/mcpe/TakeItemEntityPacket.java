@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * Created on 15-10-14.
- */
+
 public class TakeItemEntityPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.TAKE_ITEM_ENTITY_PACKET;

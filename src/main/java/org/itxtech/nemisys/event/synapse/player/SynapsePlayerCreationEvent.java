@@ -5,8 +5,7 @@ import org.itxtech.nemisys.event.synapse.SynapseEvent;
 import org.itxtech.nemisys.network.SourceInterface;
 import org.itxtech.nemisys.synapse.SynapsePlayer;
 
-/**
- */
+
 public class SynapsePlayerCreationEvent extends SynapseEvent {
 
     private static final HandlerList handlers = new HandlerList();

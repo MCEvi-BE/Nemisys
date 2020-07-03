@@ -4,9 +4,7 @@ import org.itxtech.nemisys.plugin.Plugin;
 
 import java.util.Map;
 
-/**
- * @author CreeperFace
- */
+
 public interface Permissible extends ServerOperator {
     boolean isPermissionSet(String name);
 

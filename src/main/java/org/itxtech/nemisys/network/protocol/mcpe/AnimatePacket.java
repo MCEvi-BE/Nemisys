@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class AnimatePacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.ANIMATE_PACKET;

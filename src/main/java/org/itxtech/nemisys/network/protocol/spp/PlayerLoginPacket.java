@@ -2,9 +2,7 @@ package org.itxtech.nemisys.network.protocol.spp;
 
 import java.util.UUID;
 
-/**
- * Created by boybook on 16/6/24.
- */
+
 public class PlayerLoginPacket extends SynapseDataPacket {
 
     public static final byte NETWORK_ID = SynapseInfo.PLAYER_LOGIN_PACKET;

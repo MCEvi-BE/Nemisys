@@ -13,10 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public abstract class Command {
 
     protected CommandData commandData;
@@ -61,13 +58,7 @@ public abstract class Command {
         this.commandParameters.put("default", new CommandParameter[]{new CommandParameter("args", CommandParamType.RAWTEXT, true)});
     }
 
-    /*public CommandData getCommandData() {
-        if (commandData == null) {
-            commandData = generateCustomCommandData();
-        }
-
-        return commandData;
-    }*/
+    
 
     public abstract boolean execute(CommandSender sender, String commandLabel, String[] args);
 
@@ -159,21 +150,12 @@ public abstract class Command {
         this.commandParameters.put(key, parameters);
     }
 
-    /**
-     * Returns an CommandData containing command data
-     *
-     * @return CommandData
-     */
+    
     public CommandData getDefaultCommandData() {
         return this.commandData;
     }
 
-    /**
-     * Generates modified command data for the specified player
-     * for AvailableCommandsPacket.
-     *
-     * @return CommandData|null
-     */
+    
     public CommandDataVersions generateCustomCommandData(Player player) {
         if (!this.testPermission(player)) {
             return null;

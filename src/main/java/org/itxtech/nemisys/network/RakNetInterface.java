@@ -25,10 +25,7 @@ import java.util.Map;
 import java.util.StringJoiner;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class RakNetInterface implements ServerInstance, AdvancedSourceInterface {
 
     private final Server server;

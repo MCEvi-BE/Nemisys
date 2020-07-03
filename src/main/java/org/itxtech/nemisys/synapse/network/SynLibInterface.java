@@ -5,9 +5,7 @@ import org.itxtech.nemisys.network.SourceInterface;
 import org.itxtech.nemisys.network.protocol.mcpe.DataPacket;
 import org.itxtech.nemisys.network.protocol.spp.RedirectPacket;
 
-/**
- * Created by boybook on 16/6/24.
- */
+
 public class SynLibInterface implements SourceInterface {
 
     private SynapseInterface synapseInterface;

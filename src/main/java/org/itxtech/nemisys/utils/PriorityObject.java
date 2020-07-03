@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.utils;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class PriorityObject {
     public int priority;
     public Object data;

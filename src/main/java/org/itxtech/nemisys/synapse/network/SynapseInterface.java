@@ -7,9 +7,7 @@ import org.itxtech.nemisys.synapse.network.synlib.SynapseClient;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by boybook on 16/6/24.
- */
+
 public class SynapseInterface {
 
     private static Map<Byte, SynapseDataPacket> packetPool = new HashMap<>();

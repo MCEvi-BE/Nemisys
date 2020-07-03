@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.math;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class NemisysMath {
 
     public static int floorDouble(double n) {

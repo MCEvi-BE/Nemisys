@@ -3,9 +3,7 @@ package org.itxtech.nemisys.network.protocol.mcpe.types;
 import java.util.OptionalLong;
 import java.util.UUID;
 
-/**
- * @author SupremeMortal
- */
+
 public final class CommandOriginData {
 
     public final Origin type;

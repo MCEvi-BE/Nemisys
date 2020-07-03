@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.spp;
 
-/**
- * Created by boybook on 16/6/24.
- */
+
 public class DisconnectPacket extends SynapseDataPacket {
 
     public static final byte NETWORK_ID = SynapseInfo.DISCONNECT_PACKET;

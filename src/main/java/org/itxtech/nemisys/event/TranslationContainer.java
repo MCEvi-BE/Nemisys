@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.event;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class TranslationContainer extends TextContainer implements Cloneable {
 
     protected String[] params;

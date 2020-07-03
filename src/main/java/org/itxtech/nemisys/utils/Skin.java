@@ -10,10 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 @ToString(exclude = {"skinData", "capeData", "geometryData"})
 public class Skin {
     private static final int PIXEL_SIZE = 4;

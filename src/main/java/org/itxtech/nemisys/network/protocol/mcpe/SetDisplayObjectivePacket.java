@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * @author CreeperFace
- */
+
 public class SetDisplayObjectivePacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.SET_DISPLAY_OBJECTIVE_PACKET;

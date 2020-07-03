@@ -14,10 +14,7 @@ import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class Session {
     public final static int STATE_UNCONNECTED = 0;
     public final static int STATE_CONNECTING_1 = 1;

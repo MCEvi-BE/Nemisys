@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import java.util.UUID;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class AddPlayerPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.ADD_PLAYER_PACKET;
 

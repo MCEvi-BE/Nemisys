@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class FloatEntityData extends EntityData<Float> {
     public float data;
 

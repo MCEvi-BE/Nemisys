@@ -4,10 +4,7 @@ import org.itxtech.nemisys.event.Event;
 import org.itxtech.nemisys.event.HandlerList;
 import org.itxtech.nemisys.plugin.Plugin;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class PluginEvent extends Event {
 
     private static final HandlerList handlers = new HandlerList();

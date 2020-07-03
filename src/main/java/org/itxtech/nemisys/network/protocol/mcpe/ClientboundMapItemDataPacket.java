@@ -5,9 +5,7 @@ import org.itxtech.nemisys.utils.Utils;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
-/**
- * Created by CreeperFace on 5.3.2017.
- */
+
 public class ClientboundMapItemDataPacket extends DataPacket { //TODO: update to 1.2
 
     public int[] eids = new int[0];

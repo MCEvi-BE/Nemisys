@@ -8,9 +8,7 @@ import net.md_5.bungee.jni.zlib.BungeeZlib;
 import java.util.zip.DataFormatException;
 import java.util.zip.Deflater;
 
-/**
- * @author SupremeMortal
- */
+
 @UtilityClass
 public class CompressionUtil {
     private static final ThreadLocal<BungeeZlib> zlibInflaterLocal = ThreadLocal.withInitial(() -> {

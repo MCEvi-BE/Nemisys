@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class AddPaintingPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.ADD_PAINTING_PACKET;
@@ -19,14 +17,7 @@ public class AddPaintingPacket extends DataPacket {
     public void decode() {
         entityUniqueId = getEntityUniqueId();
         entityRuntimeId = getEntityRuntimeId();
-        /*BlockVector3 pos = getBlockVector3();
-
-        x = pos.x;
-        y = pos.y;
-        z = pos.z;
-
-        direction = getVarInt();
-        title = getString();*/
+        
     }
 
     @Override

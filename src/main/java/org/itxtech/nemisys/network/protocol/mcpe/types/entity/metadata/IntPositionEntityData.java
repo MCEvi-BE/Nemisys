@@ -3,10 +3,7 @@ package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 import org.itxtech.nemisys.math.BlockVector3;
 import org.itxtech.nemisys.math.Vector3;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class IntPositionEntityData extends EntityData<BlockVector3> {
     public int x;
     public int y;

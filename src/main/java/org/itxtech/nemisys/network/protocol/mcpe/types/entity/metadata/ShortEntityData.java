@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class ShortEntityData extends EntityData<Integer> {
     public int data;
 

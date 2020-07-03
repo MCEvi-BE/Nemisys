@@ -2,10 +2,7 @@ package org.itxtech.nemisys.raknet.server;
 
 import org.itxtech.nemisys.raknet.protocol.EncapsulatedPacket;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public interface ServerInstance {
 
     void openSession(String identifier, String address, int port, long clientID);

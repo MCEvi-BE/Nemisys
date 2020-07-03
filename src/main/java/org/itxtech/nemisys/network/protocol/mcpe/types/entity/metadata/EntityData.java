@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 
 import java.util.Objects;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public abstract class EntityData<T> {
     private int id;
 

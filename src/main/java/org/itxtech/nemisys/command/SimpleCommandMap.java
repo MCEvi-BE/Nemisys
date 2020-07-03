@@ -11,10 +11,7 @@ import org.itxtech.nemisys.utils.Utils;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class SimpleCommandMap implements CommandMap {
     protected Map<String, Command> knownCommands = new ConcurrentHashMap<>();
 

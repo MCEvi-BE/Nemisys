@@ -17,10 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class BinaryStream {
 
     public int offset;
@@ -398,32 +395,22 @@ public class BinaryStream {
         VarInt.writeUnsignedVarLong(this, v);
     }
 
-    /**
-     * Reads and returns an EntityUniqueID
-     *
-     * @return int
-     */
+
     public long getEntityUniqueId() {
         return this.getVarLong();
     }
 
-    /**
-     * Writes an EntityUniqueID
-     */
+
     public void putEntityUniqueId(long eid) {
         this.putVarLong(eid);
     }
 
-    /**
-     * Reads and returns an EntityRuntimeID
-     */
+
     public long getEntityRuntimeId() {
         return this.getUnsignedVarLong();
     }
 
-    /**
-     * Writes an EntityUniqueID
-     */
+
     public void putEntityRuntimeId(long eid) {
         this.putUnsignedVarLong(eid);
     }
@@ -435,11 +422,7 @@ public class BinaryStream {
         putBoolean(link.immediate);
     }
 
-    /**
-     * Reads a list of Attributes from the stream.
-     *
-     * @return Attribute[]
-     */
+
     public Attribute[] getAttributeList() {
         List<Attribute> list = new ArrayList<>();
         long count = this.getUnsignedVarInt();
@@ -460,9 +443,7 @@ public class BinaryStream {
         return list.toArray(new Attribute[0]);
     }
 
-    /**
-     * Writes a list of Attributes to the packet buffer using the standard format.
-     */
+
     public void putAttributeList(Attribute[] attributes) {
         this.putUnsignedVarInt(attributes.length);
         for (Attribute attribute : attributes) {

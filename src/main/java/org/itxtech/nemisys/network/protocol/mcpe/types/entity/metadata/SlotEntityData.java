@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 
 import org.itxtech.nemisys.network.protocol.mcpe.types.item.Item;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class SlotEntityData extends EntityData<Item> {
     public int blockId;
     public int meta;

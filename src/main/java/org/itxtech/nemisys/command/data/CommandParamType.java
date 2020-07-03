@@ -4,9 +4,7 @@ import io.netty.util.collection.IntObjectHashMap;
 
 import static org.itxtech.nemisys.network.protocol.mcpe.AvailableCommandsPacket.*;
 
-/**
- * @author CreeperFace
- */
+
 public enum CommandParamType {
     INT(ARG_TYPE_INT),
     FLOAT(ARG_TYPE_FLOAT),

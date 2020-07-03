@@ -4,9 +4,7 @@ import org.itxtech.nemisys.Player;
 import org.itxtech.nemisys.event.Cancellable;
 import org.itxtech.nemisys.event.HandlerList;
 
-/**
- * @author CreeperFace
- */
+
 public class PlayerChatEvent extends PlayerMessageEvent implements Cancellable {
 
     private static final HandlerList handlers = new HandlerList();
@@ -27,9 +25,7 @@ public class PlayerChatEvent extends PlayerMessageEvent implements Cancellable {
         this.format = format;
     }
 
-    /**
-     * Changes the player that is sending the message
-     */
+    
     public void setPlayer(Player player) {
         this.player = player;
     }

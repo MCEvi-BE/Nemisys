@@ -5,10 +5,7 @@ import org.itxtech.nemisys.command.CommandSender;
 import org.itxtech.nemisys.event.TranslationContainer;
 import org.itxtech.nemisys.utils.TextFormat;
 
-/**
- * Created on 2015/11/11 by xtypr.
- * Package org.itxtech.nemisys.command.defaults in project Nukkit .
- */
+
 public class KickCommand extends VanillaCommand {
 
     public KickCommand(String name) {

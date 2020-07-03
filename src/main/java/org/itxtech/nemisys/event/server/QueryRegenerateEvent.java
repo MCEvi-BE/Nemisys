@@ -11,10 +11,7 @@ import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class QueryRegenerateEvent extends ServerEvent {
 
     private static final HandlerList handlers = new HandlerList();

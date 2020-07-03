@@ -11,10 +11,7 @@ import org.itxtech.nemisys.utils.MainLogger;
 
 import java.util.Map;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class ConsoleCommandSender implements CommandSender {
 
     private final PermissibleBase perm;

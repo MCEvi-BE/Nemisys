@@ -3,10 +3,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 import org.itxtech.nemisys.raknet.protocol.EncapsulatedPacket;
 import org.itxtech.nemisys.utils.BinaryStream;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public abstract class DataPacket extends BinaryStream implements Cloneable {
 
     public boolean isEncoded = false;

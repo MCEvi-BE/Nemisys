@@ -8,13 +8,7 @@ import org.itxtech.nemisys.utils.MainLogger;
 
 import java.util.List;
 
-/**
- * SynapsePacketDecoder
- * ===============
- * author: boybook
- * Nemisys Project
- * ===============
- */
+
 public class SynapsePacketDecoder extends ReplayingDecoder<SynapsePacketDecoder.State> {
 
     private static final int MAX_BODY_SIZE = 1024 * 1024 * 5;

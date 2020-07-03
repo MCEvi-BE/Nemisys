@@ -2,9 +2,7 @@ package org.itxtech.nemisys.event.player;
 
 import org.itxtech.nemisys.Player;
 
-/**
- * @author CreeperFace
- */
+
 public abstract class PlayerMessageEvent extends PlayerEvent {
 
     protected String message;

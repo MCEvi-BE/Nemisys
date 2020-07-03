@@ -10,10 +10,7 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class BaseLang {
     public static final String FALLBACK_LANGUAGE = "eng";
 

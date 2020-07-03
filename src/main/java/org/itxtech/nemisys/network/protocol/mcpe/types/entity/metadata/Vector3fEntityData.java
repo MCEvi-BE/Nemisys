@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe.types.entity.metadata;
 
 import org.itxtech.nemisys.math.Vector3f;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class Vector3fEntityData extends EntityData<Vector3f> {
     public float x;
     public float y;

@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.math;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class Vector3 implements Cloneable {
     public static final int SIDE_DOWN = 0;
     public static final int SIDE_UP = 1;
@@ -236,10 +233,7 @@ public class Vector3 implements Cloneable {
         );
     }
 
-    /**
-     * Returns a new vector with x value equal to the second parameter, along the line between this vector and the
-     * passed in vector, or null if not possible.
-     */
+
     public Vector3 getIntermediateWithXValue(Vector3 v, double x) {
         double xDiff = v.x - this.x;
         double yDiff = v.y - this.y;
@@ -255,10 +249,7 @@ public class Vector3 implements Cloneable {
         }
     }
 
-    /**
-     * Returns a new vector with y value equal to the second parameter, along the line between this vector and the
-     * passed in vector, or null if not possible.
-     */
+
     public Vector3 getIntermediateWithYValue(Vector3 v, double y) {
         double xDiff = v.x - this.x;
         double yDiff = v.y - this.y;
@@ -274,10 +265,7 @@ public class Vector3 implements Cloneable {
         }
     }
 
-    /**
-     * Returns a new vector with z value equal to the second parameter, along the line between this vector and the
-     * passed in vector, or null if not possible.
-     */
+
     public Vector3 getIntermediateWithZValue(Vector3 v, double z) {
         double xDiff = v.x - this.x;
         double yDiff = v.y - this.y;

@@ -2,10 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import org.itxtech.nemisys.math.Vector3f;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class LevelEventPacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.LEVEL_EVENT_PACKET;
 

@@ -6,11 +6,7 @@ import org.itxtech.nemisys.event.HandlerList;
 
 import java.util.UUID;
 
-/**
- * This event is called asynchronously
- *
- * @author CreeperFace
- */
+
 public class PlayerAsyncPreLoginEvent extends PlayerEvent {
 
     private static final HandlerList handlers = new HandlerList();

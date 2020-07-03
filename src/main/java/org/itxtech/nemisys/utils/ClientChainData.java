@@ -8,19 +8,7 @@ import org.itxtech.nemisys.network.protocol.mcpe.LoginPacket;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-/**
- * ClientChainData is a container of chain data sent from clients.
- * <p>
- * Device information such as client UUID, xuid and serverAddress, can be
- * read from instances of this object.
- * <p>
- * To get chain data, you can use player.getLoginChainData() or read(loginPacket)
- * <p>
- * ===============
- * author: boybook
- * Nukkit Project
- * ===============
- */
+
 public final class ClientChainData {
 
     public final static int UI_PROFILE_CLASSIC = 0;

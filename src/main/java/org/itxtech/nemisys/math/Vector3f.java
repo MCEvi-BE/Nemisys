@@ -232,10 +232,7 @@ public class Vector3f implements Cloneable {
         );
     }
 
-    /**
-     * Returns a new vector with x value equal to the second parameter, along the line between this vector and the
-     * passed in vector, or null if not possible.
-     */
+    
     public Vector3f getIntermediateWithXValue(Vector3f v, float x) {
         float xDiff = v.x - this.x;
         float yDiff = v.y - this.y;
@@ -251,10 +248,7 @@ public class Vector3f implements Cloneable {
         }
     }
 
-    /**
-     * Returns a new vector with y value equal to the second parameter, along the line between this vector and the
-     * passed in vector, or null if not possible.
-     */
+    
     public Vector3f getIntermediateWithYValue(Vector3f v, float y) {
         float xDiff = v.x - this.x;
         float yDiff = v.y - this.y;
@@ -270,10 +264,7 @@ public class Vector3f implements Cloneable {
         }
     }
 
-    /**
-     * Returns a new vector with z value equal to the second parameter, along the line between this vector and the
-     * passed in vector, or null if not possible.
-     */
+    
     public Vector3f getIntermediateWithZValue(Vector3f v, float z) {
         float xDiff = v.x - this.x;
         float yDiff = v.y - this.y;

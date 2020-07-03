@@ -12,9 +12,7 @@ import net.md_5.bungee.jni.zlib.BungeeZlib;
 import net.md_5.bungee.jni.zlib.JavaZlib;
 import net.md_5.bungee.jni.zlib.NativeZlib;
 
-/**
- * @author SupremeMortal
- */
+
 @UtilityClass
 public class NativeCodeFactory {
 

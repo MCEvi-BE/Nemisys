@@ -5,9 +5,7 @@ import org.itxtech.nemisys.Server;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author CreeperFace
- */
+
 public class Permission {
 
     public final static String DEFAULT_OP = "op";

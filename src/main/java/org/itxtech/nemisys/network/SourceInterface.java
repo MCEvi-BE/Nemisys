@@ -4,10 +4,7 @@ import org.itxtech.nemisys.Player;
 import org.itxtech.nemisys.network.protocol.mcpe.DataPacket;
 
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public interface SourceInterface {
 
     Integer putPacket(Player player, DataPacket packet);

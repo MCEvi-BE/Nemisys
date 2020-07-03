@@ -5,10 +5,7 @@ import org.itxtech.nemisys.utils.Binary;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class EncapsulatedPacket implements Cloneable {
 
     public int reliability;

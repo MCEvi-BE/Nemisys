@@ -2,9 +2,7 @@ package org.itxtech.nemisys.network.protocol.mcpe;
 
 import java.util.UUID;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class CraftingEventPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.CRAFTING_EVENT_PACKET;
@@ -20,8 +18,7 @@ public class CraftingEventPacket extends DataPacket {
     public int type;
     public UUID id;
 
-    /*public Item[] input;
-    public Item[] output;*/
+
 
     @Override
     public void decode() {
@@ -29,17 +26,7 @@ public class CraftingEventPacket extends DataPacket {
         this.type = this.getVarInt();
         this.id = this.getUUID();
 
-        /*int inputSize = (int) this.getUnsignedVarInt();
-        this.input = new Item[inputSize];
-        for (int i = 0; i < inputSize && i < 128; ++i) {
-            this.input[i] = this.getSlot();
-        }
 
-        int outputSize = (int) this.getUnsignedVarInt();
-        this.output = new Item[outputSize];
-        for (int i = 0; i < outputSize && i < 128; ++i) {
-            this.output[i] = getSlot();
-        }*/
     }
 
     @Override

@@ -1,9 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class SetTimePacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.SET_TIME_PACKET;
 

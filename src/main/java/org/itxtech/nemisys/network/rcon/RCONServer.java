@@ -15,11 +15,7 @@ import java.nio.channels.spi.SelectorProvider;
 import java.nio.charset.Charset;
 import java.util.*;
 
-/**
- * Thread that performs all RCON network work. A server.
- *
- * @author Tee7even
- */
+
 public class RCONServer extends Thread {
     private static final int SERVERDATA_AUTH = 3;
     private static final int SERVERDATA_AUTH_RESPONSE = 2;

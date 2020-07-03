@@ -7,10 +7,7 @@ import org.itxtech.nemisys.event.Listener;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class MethodEventExecutor implements EventExecutor {
 
     private Method method;

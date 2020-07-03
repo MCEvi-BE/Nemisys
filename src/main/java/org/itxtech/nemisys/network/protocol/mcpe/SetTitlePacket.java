@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * @author Tee7even
- */
+
 public class SetTitlePacket extends DataPacket {
     public static final byte NETWORK_ID = ProtocolInfo.SET_TITLE_PACKET;
 

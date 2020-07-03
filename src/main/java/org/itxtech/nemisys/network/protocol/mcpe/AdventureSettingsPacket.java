@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * @author Nukkit Project Team
- */
+
 public class AdventureSettingsPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.ADVENTURE_SETTINGS_PACKET;
@@ -13,11 +11,7 @@ public class AdventureSettingsPacket extends DataPacket {
     public static final int PERMISSION_AUTOMATION = 3;
     public static final int PERMISSION_ADMIN = 4;
     //TODO: check level 3
-    /**
-     * This constant is used to identify flags that should be set on the second field. In a sensible world, these
-     * flags would all be set on the same packet field, but as of MCPE 1.2, the new abilities flags have for some
-     * reason been assigned a separate field.
-     */
+
     public static final int BITFLAG_SECOND_SET = 1 << 16;
 
     public static final int WORLD_IMMUTABLE = 0x01;

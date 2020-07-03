@@ -1,14 +1,9 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * author: MagicDroidX & iNevet
- * Nukkit Project
- */
+
 public interface ProtocolInfo {
 
-    /**
-     * Actual Minecraft: PE protocol version
-     */
+    
     int CURRENT_PROTOCOL = Integer.valueOf("390"); //plugins can change it
 
     String MINECRAFT_VERSION = "v1.14.60";

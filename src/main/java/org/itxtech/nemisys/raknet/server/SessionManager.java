@@ -14,10 +14,7 @@ import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class SessionManager {
     protected final Packet.PacketFactory[] packetPool = new Packet.PacketFactory[256];
 

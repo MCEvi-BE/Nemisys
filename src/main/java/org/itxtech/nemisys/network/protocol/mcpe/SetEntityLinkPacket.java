@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.network.protocol.mcpe;
 
-/**
- * Created on 15-10-22.
- */
+
 public class SetEntityLinkPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.SET_ENTITY_LINK_PACKET;

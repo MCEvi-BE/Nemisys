@@ -13,10 +13,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * author: MagicDroidX
- * Nukkit Project
- */
+
 public class Network {
 
     private Class<? extends DataPacket>[] packetPool = new Class[256];
@@ -154,12 +151,7 @@ public class Network {
         }
     }
 
-    /**
-     * Process packets obtained from batch packets
-     * Required to perform additional analyses and filter unnecessary packets
-     *
-     * @param packets
-     */
+
     public void processPackets(Player player, List<DataPacket> packets) {
         if (packets.isEmpty()) return;
         packets.forEach(player::addOutgoingPacket);

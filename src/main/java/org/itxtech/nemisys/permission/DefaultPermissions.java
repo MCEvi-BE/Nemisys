@@ -2,9 +2,7 @@ package org.itxtech.nemisys.permission;
 
 import org.itxtech.nemisys.Server;
 
-/**
- * @author CreeperFace
- */
+
 public abstract class DefaultPermissions {
     public static final String ROOT = "nemisys";
 

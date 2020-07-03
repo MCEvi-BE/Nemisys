@@ -1,8 +1,6 @@
 package org.itxtech.nemisys.permission;
 
-/**
- * @author CreeperFace
- */
+
 public class PermissionAttachmentInfo {
 
     private Permissible permissible;

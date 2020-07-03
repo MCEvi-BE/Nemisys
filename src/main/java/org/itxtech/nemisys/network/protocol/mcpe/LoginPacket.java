@@ -10,9 +10,7 @@ import org.itxtech.nemisys.utils.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-/**
- * Created by on 15-10-13.
- */
+
 public class LoginPacket extends DataPacket {
 
     public static final byte NETWORK_ID = ProtocolInfo.LOGIN_PACKET;
