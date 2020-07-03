@@ -133,7 +133,7 @@ public enum TextFormat {
                 char c = input.charAt(index + 1);
                 TextFormat color = getByChar(c);
 
-                if (color != null) {S
+                if (color != null) {
                     result = color.toString() + result;
 
                     // Once we find a color or reset we can stop searching
